@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google'
 import localFont from 'next/font/local'
 
 import Header from '@/components/ui/header'
-
+import { Analytics } from '@vercel/analytics/next'
 const inter = Inter({
 	subsets: ['latin'],
 	variable: '--font-inter',
@@ -56,6 +56,7 @@ export default function RootLayout({
 				<div className='flex min-h-screen flex-col overflow-hidden supports-[overflow:clip]:overflow-clip'>
 					<Header />
 					{children}
+					<Analytics />
 				</div>
 			</body>
 		</html>

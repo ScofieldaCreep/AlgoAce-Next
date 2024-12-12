@@ -40,7 +40,7 @@ const qaData = [
 			' Yes, we offer a free trial for 30 minutes. To ensure the best experience and supreme quality, I have to control the total cost of api calls. I believe you will fall in love with this little monster in short time. No credit card is required to start.'
 	},
 	{
-		question: 'Domains/Fields Supportted?',
+		question: 'Domains/Fields Supported?',
 		answer:
 			'We support literally all domains/fields. But fine-tuned for algorithm questions for SDE/MLE interviews. Other fileds are supported and as good as ChatGPT OpenAI O1.'
 	},
