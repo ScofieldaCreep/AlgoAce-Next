@@ -15,7 +15,7 @@ const qaData = [
 			'Members will have access to all future AI Q&A related features, including but not limited to: past question export, professional answers in other fields, and advanced new AI models. Coming early Jan'
 	},
 	{
-		question: 'Does it support languages other than English?',
+		question: 'Language Support?',
 		answer:
 			'Yes, we support multiple languages including Chinese, and you can customize the settings (not limited to current language options). Of course, you can also use AlgoAce in other domains (such as Machine Learning, Data Science, System Design, etc. Feel free to explore).'
 	},
@@ -28,6 +28,31 @@ const qaData = [
 		question: 'What is the cancellation policy?',
 		answer:
 			'You can cancel future subscriptions at any time according to our Refund Policy requirements.'
+	},
+	{
+		question: 'Platform Support?',
+		answer:
+			'We support Chrome, Edge, and Firefox. We will support more platforms in the future. Official support is for Chrome. Please feel free to download from Chrome Extension Store and use it in other browsers.'
+	},
+	{
+		question: 'Free Trial?',
+		answer:
+			' Yes, we offer a free trial for 30 minutes. To ensure the best experience and supreme quality, I have to control the total cost of api calls. I believe you will fall in love with this little monster in short time. No credit card is required to start.'
+	},
+	{
+		question: 'Domains/Fields Supportted?',
+		answer:
+			'We support literally all domains/fields. But fine-tuned for algorithm questions for SDE/MLE interviews. Other fileds are supported and as good as ChatGPT OpenAI O1.'
+	},
+	{
+		question: 'What payment methods do you support?',
+		answer:
+			'We support full methods of Stripe. You can use your credit card, line accounts, and other methods included.'
+	},
+	{
+		question: 'Is my payment information protected?',
+		answer:
+			"Yes, we use Stripe to process payments. Your payment information is protected by Stripe's security measures. The chrome extension itself does not access or store any payment information. It only knows whether you have a subscription or not."
 	}
 ]
 

@@ -115,7 +115,7 @@ export default function Footer() {
 							<li>
 								<Link
 									className='text-indigo-200/65 transition hover:text-indigo-500'
-									href='mailto:chizhang2048@gmail.com'
+									href='/support'
 								>
 									Advice
 								</Link>
@@ -123,7 +123,7 @@ export default function Footer() {
 							<li>
 								<Link
 									className='text-indigo-200/65 transition hover:text-indigo-500'
-									href='/policy'
+									href='/support'
 								>
 									Terms of service
 								</Link>
@@ -131,7 +131,7 @@ export default function Footer() {
 							<li>
 								<Link
 									className='text-indigo-200/65 transition hover:text-indigo-500'
-									href='mailto:chizhang2048@gmail.com'
+									href='/support'
 								>
 									Report Bugs
 								</Link>
@@ -189,7 +189,7 @@ export default function Footer() {
 								<li>
 									<a
 										className='flex items-center justify-center text-indigo-500 transition hover:text-indigo-400'
-										href='#0'
+										href='https://github.com/'
 										aria-label='Github'
 									>
 										<svg
