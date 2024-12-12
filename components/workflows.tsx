@@ -1,8 +1,8 @@
-import Image from 'next/image'
+import Spotlight from '@/components/spotlight'
 import WorflowImg01 from '@/public/images/workflow-01.png'
 import WorflowImg02 from '@/public/images/workflow-02.png'
 import WorflowImg03 from '@/public/images/workflow-03.png'
-import Spotlight from '@/components/spotlight'
+import Image from 'next/image'
 
 export default function Workflows() {
 	return (
@@ -13,17 +13,20 @@ export default function Workflows() {
 					<div className='mx-auto max-w-3xl pb-12 text-center md:pb-20'>
 						<div className='inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-indigo-200/50'>
 							<span className='inline-flex bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent'>
-								精准 · 隐形
+								Precision · Stealth
 							</span>
 						</div>
 						<h2 className='animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl'>
-							助你迈向 FAANG 名企之路
+							Your Fast Track to FAANG Success
 						</h2>
 						<p className='text-lg text-indigo-200/65'>
-							我们提供简单优雅的界面与强大的 AI
-							算法助理。无需繁琐配置，即可在任意网页中获得高质量的算法题解答与代码示例，帮助你快速提升技能，直通世界顶尖科技公司。
+							Experience a sleek interface and a powerful AI-driven assistant.
+							No complex setup—instantly get top-tier solutions and code
+							snippets on any webpage, accelerating your skills straight into
+							top tech giants.
 						</p>
 					</div>
+
 					{/* Spotlight items */}
 					<Spotlight className='group mx-auto grid max-w-sm items-start gap-6 lg:max-w-none lg:grid-cols-3'>
 						{/* Card 1 */}
@@ -62,16 +65,20 @@ export default function Workflows() {
 									<div className='mb-3'>
 										<span className='btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal hover:bg-gray-800/60'>
 											<span className='bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent'>
-												内置AI工具
+												Built-in AI
 											</span>
 										</span>
 									</div>
 									<p className='text-indigo-200/65'>
-										无需复杂环境搭建，直接在任意网页中调用智能算法助手，自动提取问题关键点、生成题解步骤和示例代码，让你的开发与学习过程高效又轻松。
+										Instantly tap into powerful algorithmic insights on any
+										webpage. Auto-extract key details, generate step-by-step
+										solutions, and get sample code—effortless efficiency at your
+										fingertips.
 									</p>
 								</div>
 							</div>
 						</a>
+
 						{/* Card 2 */}
 						<a
 							className='group/card relative h-full overflow-hidden rounded-2xl bg-gray-800 p-px before:pointer-events-none before:absolute before:-left-40 before:-top-40 before:z-10 before:h-80 before:w-80 before:translate-x-[var(--mouse-x)] before:translate-y-[var(--mouse-y)] before:rounded-full before:bg-indigo-500/80 before:opacity-0 before:blur-3xl before:transition-opacity before:duration-500 after:pointer-events-none after:absolute after:-left-48 after:-top-48 after:z-30 after:h-64 after:w-64 after:translate-x-[var(--mouse-x)] after:translate-y-[var(--mouse-y)] after:rounded-full after:bg-indigo-500 after:opacity-0 after:blur-3xl after:transition-opacity after:duration-500 after:hover:opacity-20 before:group-hover:opacity-100'
@@ -108,16 +115,20 @@ export default function Workflows() {
 									<div className='mb-3'>
 										<span className='btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal hover:bg-gray-800/60'>
 											<span className='bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent'>
-												即刻升级
+												Instant Upgrade
 											</span>
 										</span>
 									</div>
 									<p className='text-indigo-200/65'>
-										免费试用期满后，可一键订阅升级，无需中断你的工作流程，立即拥有无限查询次数与更高精度的算法模型支持，助你在面试中先人一步。
+										Enjoy a 30-minute trial and solve problems in seconds. After
+										the trial, upgrade with one click to unlock unlimited
+										queries, advanced models, and the full LeetCode library.
+										Dominate your interviews with precision and speed.
 									</p>
 								</div>
 							</div>
 						</a>
+
 						{/* Card 3 */}
 						<a
 							className='group/card relative h-full overflow-hidden rounded-2xl bg-gray-800 p-px before:pointer-events-none before:absolute before:-left-40 before:-top-40 before:z-10 before:h-80 before:w-80 before:translate-x-[var(--mouse-x)] before:translate-y-[var(--mouse-y)] before:rounded-full before:bg-indigo-500/80 before:opacity-0 before:blur-3xl before:transition-opacity before:duration-500 after:pointer-events-none after:absolute after:-left-48 after:-top-48 after:z-30 after:h-64 after:w-64 after:translate-x-[var(--mouse-x)] after:translate-y-[var(--mouse-y)] after:rounded-full after:bg-indigo-500 after:opacity-0 after:blur-3xl after:transition-opacity after:duration-500 after:hover:opacity-20 before:group-hover:opacity-100'
@@ -154,12 +165,14 @@ export default function Workflows() {
 									<div className='mb-3'>
 										<span className='btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal hover:bg-gray-800/60'>
 											<span className='bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent'>
-												定制化体验
+												Tailored Experience
 											</span>
 										</span>
 									</div>
 									<p className='text-indigo-200/65'>
-										根据你的个人偏好自由设置回答语言、代码风格和附加上下文信息，打造完全符合你需求的算法学习与面试准备体验。
+										Customize responses to match your language, coding style,
+										and context preferences. It's a personalized roadmap to
+										mastering algorithms and acing interviews on your own terms.
 									</p>
 								</div>
 							</div>

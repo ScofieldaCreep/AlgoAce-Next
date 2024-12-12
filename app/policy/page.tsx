@@ -1,6 +1,17 @@
 // pages/privacy.tsx
-import React from 'react'
 import Head from 'next/head'
+
+export default function Policy() {
+	return <Privacy />
+}
+
+const UserPolicy = () => {
+	return (
+		<>
+			<h1>User Policy</h1>
+		</>
+	)
+}
 
 const Privacy = () => {
 	return (
@@ -70,5 +81,3 @@ const Privacy = () => {
 		</>
 	)
 }
-
-export default Privacy

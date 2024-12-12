@@ -1,7 +1,7 @@
-import Image from 'next/image'
 import BlurredShapeGray from '@/public/images/blurred-shape-gray.svg'
 import BlurredShape from '@/public/images/blurred-shape.svg'
 import FeaturesImage from '@/public/images/features.png'
+import Image from 'next/image'
 
 export default function Features() {
 	return (
@@ -36,14 +36,16 @@ export default function Features() {
 					<div className='mx-auto max-w-3xl pb-4 text-center md:pb-12'>
 						<div className='inline-flex items-center gap-3 pb-3 before:h-px before:w-8 before:bg-gradient-to-r before:from-transparent before:to-indigo-200/50 after:h-px after:w-8 after:bg-gradient-to-l after:from-transparent after:to-indigo-200/50'>
 							<span className='inline-flex bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent'>
-								高级掌控
+								If you are tired of other similar software like me...
 							</span>
 						</div>
 						<h2 className='animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl'>
-							为现代团队而生的协作与提升平台
+							After being tortured by other similar software, I built this.
 						</h2>
 						<p className='text-lg text-indigo-200/65'>
-							我们的AI助理可轻松理解与解析你的代码、题目与文档，只需简短指令即可获得深入解答。这让团队决策与个人成长超越传统效率，直抵技术前沿。
+							As a 700+ leetcoder, I still feel the pain of uncertainty and
+							helplessness. Below is my personal experience and functional
+							improvements built on it 💢.
 						</p>
 					</div>
 					<div className='flex justify-center pb-4 md:pb-12' data-aos='fade-up'>
@@ -71,10 +73,11 @@ export default function Features() {
 								/>
 							</svg>
 							<h3 className='mb-1 font-nacelle text-[1rem] font-semibold text-gray-200'>
-								里程碑管理
+								Unlimited Usage
 							</h3>
 							<p className='text-indigo-200/65'>
-								定义并追踪项目进度，让团队在清晰目标下前进。AI支持的解答与建议有助于快速解决关键难点，加速实现里程碑。
+								After using other similar software, my usage limit caused a
+								shutdown ➡️ I decide to provide unlimited usage for you guys.
 							</p>
 						</article>
 						<article>
@@ -88,10 +91,13 @@ export default function Features() {
 								<path d='M19 6H0v2h17v8H7v-6H5v8h19v-2h-5V6Z' />
 							</svg>
 							<h3 className='mb-1 font-nacelle text-[1rem] font-semibold text-gray-200'>
-								团队视图
+								Test what you see, interview what you get.
 							</h3>
 							<p className='text-indigo-200/65'>
-								通过统一的团队协作界面，集中查看各成员进度与任务状态。利用AI洞察，快速提出解决方案、提升团队沟通效率。
+								In the Tiktok interview, my software suddenly popped up a Sample
+								Recording audio, completely ruined my final interview... My 200k
+								job offer was gone ➡️ Consistent experience for you. Feel free
+								to test.
 							</p>
 						</article>
 						<article>
@@ -108,10 +114,12 @@ export default function Features() {
 								/>
 							</svg>
 							<h3 className='mb-1 font-nacelle text-[1rem] font-semibold text-gray-200'>
-								高级搜索
+								Self-configured AI
 							</h3>
 							<p className='text-indigo-200/65'>
-								利用智能搜索快速定位关键代码片段和问题要点。无需反复翻阅，只需简单指令，让高效找到答案成为常态。
+								No more need to worry about the AI's intelligence. Just tell it
+								what you want, and it will give you the best solution. You know
+								that fxxking monkey 🐒 is useless.
 							</p>
 						</article>
 						<article>
@@ -133,10 +141,11 @@ export default function Features() {
 								<path d='m16.321 2-.5-.866 1.733-1 .5.866A22 22 0 0 1 21 12c0 3.852-1.017 7.636-2.948 10.97l-.502.865-1.73-1.003.501-.865A19.878 19.878 0 0 0 19 12a20 20 0 0 0-2.679-10Z' />
 							</svg>
 							<h3 className='mb-1 font-nacelle text-[1rem] font-semibold text-gray-200'>
-								战略规划
+								Highest level AI Force
 							</h3>
 							<p className='text-indigo-200/65'>
-								在宏观层面制定战略性目标，通过AI智能分析提供解决方案，加速个人与团队朝顶尖技术岗位（如FAANG）不断前进。
+								No more need to accept the software provided by a small-minded
+								person. Garbage AI will only bring garbage interview experience.
 							</p>
 						</article>
 						<article>
@@ -153,10 +162,13 @@ export default function Features() {
 								<path d='m7.454 2.891.891-.454L7.437.655l-.891.454a12 12 0 0 0 0 21.382l.89.454.91-1.781-.892-.455a10 10 0 0 1 0-17.818ZM17.456 1.11l-.891-.454-.909 1.782.891.454a10 10 0 0 1 0 17.819l-.89.454.908 1.781.89-.454a12 12 0 0 0 0-21.382Z' />
 							</svg>
 							<h3 className='mb-1 font-nacelle text-[1rem] font-semibold text-gray-200'>
-								灵活工作流
+								Language As You Wish
 							</h3>
 							<p className='text-indigo-200/65'>
-								根据团队需求自由定制工作流程，AI助手提供实时建议与参考方案，让迭代与尝试更高效、更有条理。
+								No more need to worry about the language. Just tell it what you
+								want, and it will give you the best solution. At least for me,
+								Chinese information entropy is much higher than English. धन्यवाद
+								Glacias ありがとうございます 谢谢 ！
 							</p>
 						</article>
 						<article>
@@ -173,10 +185,11 @@ export default function Features() {
 								<path d='M19.406 3.844 6.083 20.497.586 15 2 13.586l3.917 3.917L17.844 2.595l1.562 1.25Z' />
 							</svg>
 							<h3 className='mb-1 font-nacelle text-[1rem] font-semibold text-gray-200'>
-								统一时间线
+								Promising New Features
 							</h3>
 							<p className='text-indigo-200/65'>
-								将项目进程、代码演变、反馈与改进记录集成在一条清晰的时间线上，让团队成员随时回溯历史、优化策略。
+								Leakage: Real Question Bank & Interview Question Storage are
+								coming soon.
 							</p>
 						</article>
 					</div>

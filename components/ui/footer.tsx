@@ -1,6 +1,7 @@
-import Logo from './logo'
-import Image from 'next/image'
 import FooterIllustration from '@/public/images/footer-illustration.svg'
+import Image from 'next/image'
+import Link from 'next/link'
+import Logo from './logo'
 
 export default function Footer() {
 	return (
@@ -20,7 +21,7 @@ export default function Footer() {
 					/>
 				</div>
 				<div className='grid grid-cols-2 justify-between gap-12 py-8 sm:grid-rows-[auto_auto] md:grid-cols-4 md:grid-rows-[auto_auto] md:py-12 lg:grid-cols-[repeat(4,minmax(0,140px))_1fr] lg:grid-rows-1 xl:gap-20'>
-					{/* 1st block */}
+					{/* Product block */}
 					<div className='space-y-2'>
 						<h3 className='text-sm font-medium text-gray-200'>Product</h3>
 						<ul className='space-y-2 text-sm'>
@@ -67,7 +68,7 @@ export default function Footer() {
 							<li>
 								<a
 									className='text-indigo-200/65 transition hover:text-indigo-500'
-									href='#0'
+									href='/policy'
 								>
 									User policy
 								</a>
@@ -76,28 +77,23 @@ export default function Footer() {
 					</div>
 					{/* 2nd block */}
 					<div className='space-y-2'>
-						<h3 className='text-sm font-medium text-gray-200'>Company</h3>
+						<h3 className='text-sm font-medium text-gray-200'>
+							Where it's from
+						</h3>
 						<ul className='space-y-2 text-sm'>
 							<li>
 								<a
 									className='text-indigo-200/65 transition hover:text-indigo-500'
-									href='#0'
+									href='https://chizhang.love'
 								>
-									About us
+									About me
 								</a>
 							</li>
+
 							<li>
 								<a
 									className='text-indigo-200/65 transition hover:text-indigo-500'
-									href='#0'
-								>
-									Diversity &amp; Inclusion
-								</a>
-							</li>
-							<li>
-								<a
-									className='text-indigo-200/65 transition hover:text-indigo-500'
-									href='#0'
+									href='https://blog.chizhang.love'
 								>
 									Blog
 								</a>
@@ -107,99 +103,44 @@ export default function Footer() {
 									className='text-indigo-200/65 transition hover:text-indigo-500'
 									href='#0'
 								>
-									Careers
-								</a>
-							</li>
-							<li>
-								<a
-									className='text-indigo-200/65 transition hover:text-indigo-500'
-									href='#0'
-								>
-									Financial statements
+									Careers (Only if you have job for me : )
 								</a>
 							</li>
 						</ul>
 					</div>
-					{/* 3rd block */}
+					{/* Resources block */}
 					<div className='space-y-2'>
 						<h3 className='text-sm font-medium text-gray-200'>Resources</h3>
 						<ul className='space-y-2 text-sm'>
 							<li>
-								<a
+								<Link
 									className='text-indigo-200/65 transition hover:text-indigo-500'
-									href='#0'
+									href='mailto:chizhang2048@gmail.com'
 								>
-									Community
-								</a>
+									Advice
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									className='text-indigo-200/65 transition hover:text-indigo-500'
-									href='#0'
+									href='/policy'
 								>
 									Terms of service
-								</a>
+								</Link>
 							</li>
 							<li>
-								<a
+								<Link
 									className='text-indigo-200/65 transition hover:text-indigo-500'
-									href='#0'
+									href='mailto:chizhang2048@gmail.com'
 								>
-									Report a vulnerability
-								</a>
+									Report Bugs
+								</Link>
 							</li>
 						</ul>
 					</div>
-					{/* 4th block */}
-					<div className='space-y-2'>
-						<h3 className='text-sm font-medium text-gray-200'>
-							Content Library
-						</h3>
-						<ul className='space-y-2 text-sm'>
-							<li>
-								<a
-									className='text-indigo-200/65 transition hover:text-indigo-500'
-									href='#0'
-								>
-									Templates
-								</a>
-							</li>
-							<li>
-								<a
-									className='text-indigo-200/65 transition hover:text-indigo-500'
-									href='#0'
-								>
-									Tutorials
-								</a>
-							</li>
-							<li>
-								<a
-									className='text-indigo-200/65 transition hover:text-indigo-500'
-									href='#0'
-								>
-									Knowledge base
-								</a>
-							</li>
-							<li>
-								<a
-									className='text-indigo-200/65 transition hover:text-indigo-500'
-									href='#0'
-								>
-									Learn
-								</a>
-							</li>
-							<li>
-								<a
-									className='text-indigo-200/65 transition hover:text-indigo-500'
-									href='#0'
-								>
-									Cookie manager
-								</a>
-							</li>
-						</ul>
-					</div>
+
 					{/* 5th block */}
-					<div className='col-span-2 md:col-span-4 lg:col-span-1 lg:text-right'>
+					<div className='col-span-1 md:col-span-3 lg:col-span-2 lg:text-right'>
 						<div className='mb-3'>
 							<Logo />
 						</div>

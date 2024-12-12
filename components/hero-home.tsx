@@ -1,5 +1,5 @@
-import VideoThumb from '@/public/images/hero-image-01.jpg'
 import ModalVideo from '@/components/modal-video'
+import VideoThumb from '@/public/images/hero-image-01.jpg'
 
 export default function HeroHome() {
 	return (
@@ -13,7 +13,7 @@ export default function HeroHome() {
 							className='animate-[gradient_6s_linear_infinite] bg-[linear-gradient(to_right,theme(colors.gray.200),theme(colors.indigo.200),theme(colors.gray.50),theme(colors.indigo.300),theme(colors.gray.200))] bg-[length:200%_auto] bg-clip-text pb-5 font-nacelle text-4xl font-semibold text-transparent md:text-5xl'
 							data-aos='fade-up'
 						>
-							借助 AI 助手，迈向FAANG顶尖名企
+							Boost Your Coding Skills with AI
 						</h1>
 						<div className='mx-auto max-w-3xl'>
 							<p
@@ -21,7 +21,10 @@ export default function HeroHome() {
 								data-aos='fade-up'
 								data-aos-delay={200}
 							>
-								我们的产品让您在任意网页环境下轻松调用AI算法助理，智能解析问题、提供详细题解和示例代码，从此专注于理解与提升，无需繁琐的环境配置或工具切换。
+								Our product allows you to easily call AI algorithms on any
+								webpage, intelligently parsing problems, providing detailed
+								solutions, and examples, so you can focus on understanding and
+								improving.
 							</p>
 							<div className='mx-auto max-w-xs sm:flex sm:max-w-none sm:justify-center'>
 								<div data-aos='fade-up' data-aos-delay={400}>
@@ -30,7 +33,7 @@ export default function HeroHome() {
 										href='#0'
 									>
 										<span className='relative inline-flex items-center'>
-											开始免费试用
+											Start Free Trial
 											<span className='ml-1 tracking-normal text-white/50 transition-transform group-hover:translate-x-0.5'>
 												-&gt;
 											</span>
@@ -42,7 +45,7 @@ export default function HeroHome() {
 										className='btn relative w-full bg-gradient-to-b from-gray-800 to-gray-800/60 bg-[length:100%_100%] bg-[bottom] text-gray-300 before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_right,theme(colors.gray.800),theme(colors.gray.700),theme(colors.gray.800))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-[length:100%_150%] sm:ml-4 sm:w-auto'
 										href='#0'
 									>
-										查看订阅方案
+										View Subscription Plans
 									</a>
 								</div>
 							</div>
