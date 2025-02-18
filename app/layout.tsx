@@ -41,9 +41,32 @@ const nacelle = localFont({
 });
 
 export const metadata = {
-  title: "AlgoAce",
+  title: "AlgoAce - Your AI-Powered Coding Companion",
   description:
-    "AlgoAce is a chrome extension that helps you prepare for interviews.",
+    "AlgoAce is a chrome extension that helps you prepare for coding interviews with AI-powered solutions and explanations.",
+  metadataBase: new URL("https://algo-ace-next.vercel.app"),
+  alternates: {
+    canonical: "/",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
+  verification: {
+    google: "1Q2Ewgz4r2KSHn9ulmbtyaI5omh6CDvDfBjaFnVjNJk",
+  },
+  openGraph: {
+    title: "AlgoAce - Your AI-Powered Coding Companion",
+    description:
+      "Enhance your coding interview preparation with AI-powered solutions",
+    url: "https://algo-ace-next.vercel.app",
+    siteName: "AlgoAce",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
